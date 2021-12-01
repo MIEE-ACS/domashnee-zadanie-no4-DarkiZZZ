@@ -75,6 +75,16 @@ namespace Solution1
             Console.WriteLine("===========================");
             Console.WriteLine("Произведение элементов массива, расположенных между максимальным и минимальным элементами: ");
             Console.Write(MultiplyMinMax);
+            Console.WriteLine("\n===========================");
+
+            //Сортровка эл-тов массива по возрастанию:
+
+            Array.Sort(myArray);
+            Console.WriteLine("Отсортированный массив:\n");
+            for (int i = 0; i < myArray.Length; i++) // вывод отсортированного массива                 
+                Console.WriteLine(" " + myArray[i]);
+            Console.ReadKey();
+
         }
 
 
