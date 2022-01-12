@@ -1,7 +1,6 @@
 ﻿using System;
 
-// Variant 21 Sokolov UTS-21
-namespace laboratornnaya4
+namespace DZ4_zadanie1
 {
     class Program
     {
@@ -70,7 +69,7 @@ namespace laboratornnaya4
                         }
                     }
                 }
-            } while (negativeSum! < (Double.MinValue + 1000) && (MultiplyMinMax > (Double.MaxValue - 1000) && MultiplyMinMax < (Double.MinValue + 1000)));
+            } while (negativeSum !< (Double.MinValue + 1000) && (MultiplyMinMax > (Double.MaxValue - 1000) && MultiplyMinMax < (Double.MinValue + 1000)));
             Console.WriteLine("\n===========================");
             Console.WriteLine("Сумма отрицательных элементов массива: ");
             Console.Write(negativeSum + "\n");

@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Linq;
 
-namespace laboratornnaya4_zadanie2
+namespace DZ4_zadanie2
 {
     class Program
     {
